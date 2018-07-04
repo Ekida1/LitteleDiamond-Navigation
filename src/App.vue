@@ -1,11 +1,11 @@
 <template>
   <div id="app">
-    <el-menu :default-active="activeIndex" class="el-menu-demo header-nav" :router="true" mode="horizontal" @select="handleSelect">
+    <el-menu :default-active="this.$route.path" class="el-menu-demo header-nav" :router="true" mode="horizontal" @select="handleSelect">
       <div class="logo">
         <img class="logo-img" src="static/images/diamond.png" alt="">
         <p class="logo-text">小钻石前端导航</p>
       </div>
-        <el-menu-item :index="activeIndex">前端导航首页</el-menu-item>
+        <el-menu-item index="/index/buildingtools">前端导航首页</el-menu-item>
         <el-menu-item index="/techtheme">技术专题</el-menu-item>
         <el-menu-item index="/goodpick">优站精选</el-menu-item>
         <el-menu-item index="/myplug">我的插件</el-menu-item>
@@ -25,6 +25,11 @@ export default {
     return {
       activeIndex: "/index/buildingtools"
     };
+  },
+  computed: {
+    calcuFirstIndex() {
+      return this.$route.path;
+    }
   },
   methods: {
     handleSelect(key, keyPath) {

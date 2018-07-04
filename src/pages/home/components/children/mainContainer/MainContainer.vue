@@ -10,7 +10,9 @@
        </div>
        <div class="text-info">
          <div class="text-title">
+           <a target="_blank" :href="tool.link">
            {{tool.title}}
+           </a>
          </div>
          <div class="text-content" :title="tool.content">
            <p>

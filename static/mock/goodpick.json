@@ -1,0 +1,41 @@
+{
+  "success": true,
+  "data": {
+    "boxLists": [{
+        "id": "0001",
+        "title": "Sean.blog",
+        "content": "一个在加拿大的优秀的网页设计/前端。对网页设计和喜爱为网络和移动设备创造了热情。",
+        "imgUrl": "http://fenav.com/src/images/expo/items/Seanbolg.jpg",
+        "link": "http://seanhalpin.io/"
+      },
+      {
+        "id": "0002",
+        "title": "觅未创意",
+        "content": "我们是领先的品牌咨询&服务平台，由各领域精英组成，包括国际4A美术指导，知名设计公司设计总监、策略总监，知名互联网公司UI负责人、技术主管；我们是一支经验丰富、具有国际化视野和创新能力的团队；我们坚持“与梦想者同行”，致力于成为“从中国制造到中国创造”这场变革的重要参与者。",
+        "imgUrl": "http://image.youzhan.org/4/c5/ad7790f5005641bcbe9b9cb1c4014.png?x-oss-process=imgalias/thumb",
+        "link": "http://www.meweidea.com/"
+      },
+      {
+        "id": "0003",
+        "title": "Vue.js Jobs",
+        "content": "VueJobs has been developed by Vue.js and Laravel enthusiasts whose aim is to contribute to the growing community by helping companies find Vue.js talent around the world. When you register with Vue.js jobs, companies will be able to list jobs and developers will have the chance to apply for those jobs.",
+        "imgUrl": "http://image.youzhan.org/1/2b/a2e6df752837df3e508658ad82802.png?x-oss-process=imgalias/thumb",
+        "link": "http://www.meweidea.com/"
+      },
+      {
+        "id": "0004",
+        "title": "lapa",
+        "content": "非常丰富的国外素材库",
+        "imgUrl": "static/images/lapa.png",
+        "link": "https://www.lapa.ninja/"
+      },
+      {
+        "id": "0005",
+        "title": "Gal Shir",
+        "content": "lapa上非常出色的设计师贡献的开源素材",
+        "imgUrl": "static/images/Galshir.png",
+        "link": "https://galshir.com/"
+      }
+    ]
+  }
+}
