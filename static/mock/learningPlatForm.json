@@ -1,0 +1,14 @@
+{
+  "success": true,
+  "data": {
+    "moduelName": "在线学习平台",
+    "toolLists": [{
+      "id": "0001",
+      "title": "慕课网",
+      "content": "专注做好IT技能教育的MOOC，符合互联网发展潮流接地气儿的MOOC。我们免费，我们只教有用的，我们专心做教育。",
+      "imgUrl": "static/images/muke.jpg",
+      "person": "性感益达",
+      "link": "https://www.imooc.com/"
+    }]
+  }
+}

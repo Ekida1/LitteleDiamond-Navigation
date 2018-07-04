@@ -1,0 +1,79 @@
+{
+  "success": true,
+  "data": {
+    "moduelName": "构建工具",
+    "toolLists": [{
+        "id": "0001",
+        "title": "Node.js",
+        "content": "是一个建立在Chrome的JavaScript运行时容易快速构建平台，可扩展的网络应用。是一个建立在Chrome的JavaScript运行时容易快速构建平台，可扩展的网络应用。是一个建立在Chrome的JavaScript运行时容易快速构建平台",
+        "imgUrl": "static/images/nodejs.jpg",
+        "person": "性感益达",
+        "link": "https://nodejs.org"
+      },
+      {
+        "id": "0002",
+        "title": "NPM",
+        "content": "NPM是JavaScript的软件包管理器",
+        "imgUrl": "static/images/NPM.jpg",
+        "person": "性感益达",
+        "link": "https://www.npmjs.com"
+      },
+      {
+        "id": "0003",
+        "title": "Bower",
+        "content": "一个网络包管理器。",
+        "imgUrl": "static/images/bower.jpg",
+        "person": "性感益达",
+        "link": "https://bower.io"
+      },
+      {
+        "id": "0004",
+        "title": "Yeoman",
+        "content": "一套用于自动化开发工作流程的工具。",
+        "imgUrl": "static/images/Yeoman.jpg",
+        "person": "性感益达",
+        "link": "https://github.com/yeoman/yeoman"
+      },
+      {
+        "id": "0005",
+        "title": "Gulp",
+        "content": "流式构建系统。",
+        "imgUrl": "static/images/Gulp.jpg",
+        "person": "性感益达",
+        "link": "https://www.gulpjs.com.cn"
+      },
+      {
+        "id": "0006",
+        "title": "Grunt",
+        "content": "世界的构建工具。",
+        "imgUrl": "static/images/Grunt.jpg",
+        "person": "性感益达",
+        "link": "http://www.gruntjs.net"
+      },
+      {
+        "id": "0007",
+        "title": "Babel",
+        "content": "Babel是一个编译器编写下一代JavaScript。",
+        "imgUrl": "static/images/babel.jpg",
+        "person": "性感益达",
+        "link": "http://www.ruanyifeng.com/blog/2016/01/babel.html"
+      },
+      {
+        "id": "0008",
+        "title": "webpack",
+        "content": "优秀的代码组织管理工具",
+        "imgUrl": "static/images/webpack.jpg",
+        "person": "性感益达",
+        "link": "https://webpack.github.io"
+      },
+      {
+        "id": "0009",
+        "title": "Yarn",
+        "content": "快速、可靠、安全的依赖管理。",
+        "imgUrl": "static/images/yarn.png",
+        "person": "性感益达",
+        "link": "https://yarnpkg.com/zh-Hans/"
+      }
+    ]
+  }
+}

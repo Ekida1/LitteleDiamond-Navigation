@@ -1,0 +1,55 @@
+{
+  "success": true,
+  "data": {
+    "moduelName": "技术社区",
+    "toolLists": [{
+        "id": "0001",
+        "title": "Github",
+        "content": "GitHub是全球最大的代码托管社区，与一个1200万多人的社区，开发人员可以发现，使用，并有助于超过3100万个项目使用一个强大的协同开发工作流程。",
+        "imgUrl": "static/images/github.jpg",
+        "person": "性感益达",
+        "link": "https://github.com/"
+      },
+      {
+        "id": "0002",
+        "title": "掘金",
+        "content": "一个帮助开发者成长的社区。",
+        "imgUrl": "static/images/juejin.jpg",
+        "person": "性感益达",
+        "link": "https://juejin.im"
+      },
+      {
+        "id": "0003",
+        "title": "知乎",
+        "content": "中文互联网最大的知识型讨论社区，其愿景是「帮助人们更有效、方便地分享与组织彼此的知识、经验和见解，并获得新机会。",
+        "imgUrl": "static/images/zhihu.jpg",
+        "person": "性感益达",
+        "link": "https://www.zhihu.com/"
+      },
+      {
+        "id": "0004",
+        "title": "菜鸟教程",
+        "content": "菜鸟教程(www.runoob.com)提供了编程的基础技术教程, 介绍了HTML、CSS、Javascript、Python,Java,Ruby,C,PHP , MySQL等各种编程语言的基础知识。",
+        "imgUrl": "static/images/runoob.png",
+        "person": "性感益达",
+        "link": "http://www.runoob.com/"
+      },
+      {
+        "id": "0005",
+        "title": "SegmentFault 问答社区",
+        "content": "专注高效地解决技术问题，简约干净的界面，好用到爆的 Markdown 编辑器，轻量极简，稳定友好的开源专栏程序。",
+        "imgUrl": "static/images/segmentfault.jpg",
+        "person": "性感益达",
+        "link": "https://www.segmentfault.com/"
+      },
+      {
+        "id": "0006",
+        "title": "CSDN",
+        "content": "是中国最大的IT社区和服务平台，为中国的软件开发者和IT从业者提供知识传播、职业发展、软件开发等全生命周期服务。",
+        "imgUrl": "static/images/csdn.jpg",
+        "person": "性感益达",
+        "link": "https://www.csdn.net/"
+      }
+    ]
+  }
+}
