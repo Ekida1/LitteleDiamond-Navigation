@@ -68,9 +68,11 @@ export default {
   display: flex;
 
   .left-nav {
-    // position: fixed;
-    // top: 61px;
-    // left: 0;
+    position: fixed;
+    top: 61px;
+    left: 0;
+    z-index: 9;
+    background-color: #fff;
     width: 220px;
     height: 100vh;
     borderlineright();
@@ -91,6 +93,20 @@ export default {
 
   .right-content {
     flex: 1;
+    position: absolute;
+    left: 221px;
+  }
+}
+
+@media screen and (max-width: 826px) {
+  .left-nav {
+    top: 121px !important;
+  }
+}
+
+@media screen and (max-width: 456px) {
+  .left-nav {
+    top: 181px !important;
   }
 }
 </style>

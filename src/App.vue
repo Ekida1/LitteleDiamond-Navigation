@@ -41,9 +41,10 @@ export default {
 
 <style lang="stylus" scoped>
 .header-nav {
-  // position: fixed;
-  // top: 0;
-  // left: 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
   width: 100%;
 
   .logo {
