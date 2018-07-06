@@ -1,0 +1,18 @@
+{
+  "success": true,
+  "data": {
+    "swiperLists": [{
+        "id": "0001",
+        "imgUrl": "static/images/plugbanner1.jpg"
+      },
+      {
+        "id": "0002",
+        "imgUrl": "static/images/message_header.jpg"
+      },
+      {
+        "id": "0003",
+        "imgUrl": "static/images/plugbanner3.jpg"
+      }
+    ]
+  }
+}

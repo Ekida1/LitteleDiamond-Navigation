@@ -3,16 +3,20 @@
 import Vue from 'vue'
 import App from './App'
 import 'element-ui/lib/theme-chalk/index.css';
+import 'element-ui/lib/theme-chalk/display.css';
 import 'styles/reset.css'
 import 'styles/border.css'
 import router from './router'
 import VueResource from 'vue-resource'
+// import VueAwesomeSwiper from 'vue-awesome-swiper'
+// import 'swiper/dist/css/swiper.css'
 // import store from './storeVuex'
 import ElementUI from 'element-ui';
 import animate from "animate.css";
 
 Vue.config.productionTip = false
 Vue.use(VueResource)
+// Vue.use(VueAwesomeSwiper)
 Vue.use(ElementUI)
 
 /* eslint-disable no-new */

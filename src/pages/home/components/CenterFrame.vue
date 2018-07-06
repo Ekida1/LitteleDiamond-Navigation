@@ -30,7 +30,7 @@
     </div>
     <div class="right-content">
       <keep-alive>
-      <router-view/>
+        <router-view/>
       </keep-alive>
     </div>
   </div>
@@ -93,20 +93,28 @@ export default {
 
   .right-content {
     flex: 1;
+    width: 100%;
     position: absolute;
     left: 221px;
+    top: 61px;
   }
 }
 
 @media screen and (max-width: 826px) {
-  .left-nav {
+  .left-nav, .right-content {
     top: 121px !important;
   }
 }
 
 @media screen and (max-width: 456px) {
-  .left-nav {
+  .left-nav, .right-content {
     top: 181px !important;
+  }
+}
+
+@media screen and (max-width: 332px) {
+  .left-nav, .right-content {
+    top: 241px !important;
   }
 }
 </style>
