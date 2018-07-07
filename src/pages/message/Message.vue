@@ -31,11 +31,10 @@ export default {
     width: 100%;
     height: 450px;
     background-image: url('../../../static/images/aboutUs-banner.jpg');
-    background-position: top center;
-    background-size: cover;
-    // background-attachment: fixed;
     background-position: center;
+    background-size: cover;
 
+    // background-attachment: fixed;
     .banner-title {
       width: 358px;
       height: 100px;

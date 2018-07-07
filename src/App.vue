@@ -11,6 +11,7 @@
         <el-menu-item index="/myplug">我的插件</el-menu-item>
         <el-menu-item index="/rank">排行榜</el-menu-item>
         <el-menu-item index="/message">我要留言</el-menu-item>
+        <el-menu-item index="/aboutus">关于本站</el-menu-item>
 </el-menu>
     <!-- <keep-alive> -->
     <router-view/>

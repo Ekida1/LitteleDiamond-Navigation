@@ -10,7 +10,7 @@
     </div>
     <div class="page-body">
       <div class="container">
-        <el-row :gutter="90">
+        <el-row :gutter="90" class="animation-fade-up">
           <el-col :xs="24" :sm="24" :md="12" :lg="12" :xl="12" v-for="box in boxLists" :key="box.id">
             <div class="content">
               <div class="img-info">
@@ -25,9 +25,7 @@
                  </a>
               </div>
               <div class="text-content" :title="box.content">
-
                 {{box.content}}
-
               </div>
             </div>
           </el-col>
@@ -193,7 +191,27 @@ export default {
           bottom: 5px;
         }
       }
+
+      .animation-fade-up {
+        animation: fadeInUp 1000ms;
+        -webkit-animation: fadeInUp 1000ms;
+        -moz-animation: fadeInUp 1000ms;
+        -ms-animation: fadeInUp 1000ms;
+      }
     }
+  }
+}
+
+/* 淡入-从下up */
+@keyframes fadeInUp {
+  0% {
+    opacity: 0;
+    transform: translateY(100px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
   }
 }
 
@@ -212,6 +230,12 @@ export default {
 @media screen and (max-width: 332px) {
   .basement {
     top: 241px !important;
+  }
+}
+
+@media screen and (max-width: 539px) {
+  .text-content {
+    display: none !important;
   }
 }
 </style>

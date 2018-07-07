@@ -13,6 +13,7 @@ import goodPick from '@/pages/goodpick/GoodPick.vue'
 import myPlug from '@/pages/myplug/MyPlug.vue'
 import rank from '@/pages/rank/Rank.vue'
 import message from '@/pages/message/Message.vue'
+import aboutus from '@/pages/aboutus/AboutUs.vue'
 
 Vue.use(Router)
 
@@ -80,6 +81,11 @@ export default new Router({
       path: '/message',
       name: 'message',
       component: message,
+    },
+    {
+      path: '/aboutus',
+      name: 'aboutus',
+      component: aboutus,
     },
   ]
 })
