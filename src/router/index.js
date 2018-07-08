@@ -57,11 +57,11 @@ export default new Router({
         },
       ]
     },
-    {
-      path: '/techtheme',
-      name: 'techTheme',
-      component: techTheme,
-    },
+    // {
+    //   path: '/techtheme',
+    //   name: 'techTheme',
+    //   component: techTheme,
+    // },
     {
       path: '/goodpick',
       name: 'goodPick',
@@ -72,11 +72,11 @@ export default new Router({
       name: 'myPlug',
       component: myPlug,
     },
-    {
-      path: '/rank',
-      name: 'rank',
-      component: rank,
-    },
+    // {
+    //   path: '/rank',
+    //   name: 'rank',
+    //   component: rank,
+    // },
     {
       path: '/message',
       name: 'message',

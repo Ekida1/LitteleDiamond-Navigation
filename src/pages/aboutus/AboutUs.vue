@@ -1,25 +1,58 @@
 <template>
   <div class="basement">
-       <div class="banner">
+    <div class="banner">
       <div class="banner-title">
         关于我们
       </div>
     </div>
     <ul class="main-body">
       <li class="column">
-       <div class="column-header"><h2>我的故事</h2></div>
-       <div class="column-body">
-       <div class="column-img"></div>
-       <div class="column-content">
-         <p>小钻石前端导航是本人用Vue脚手架搭建的一个本人前端学习经历工具库的收藏夹和使用框架和一些技术大牛博客的总结和收藏，其目的是为了分享更多更优秀的工具和博客，也为自己前端起步打下夯实基础，希望和大家共同努力！</p>
-         <p>而现在，已拥有独立域名、空间，功能不断增加，势要做最专业的前端导航网站，所以我们忍不住要把它介绍给你。</p>
-       </div>
-       </div>
+        <div class="column-header">
+          <h2>我的故事</h2>
+        </div>
+        <div class="column-body">
+          <div class="column-img-mystory"></div>
+          <div class="column-content">
+            <p>小钻石前端导航是本人用Vue脚手架搭建的一个本人前端学习经历工具库的收藏夹和使用框架和一些技术大牛博客的总结和收藏，其目的是为了分享更多更优秀的工具和博客，也为自己前端起步打下夯实基础，希望和大家共同努力！</p>
+            <p>而现在，已拥有独立域名、空间，功能不断增加，势要做最专业的前端导航网站，所以我们忍不住要把它介绍给你。</p>
+          </div>
+        </div>
+      </li>
+      <li class="column">
+        <div class="column-header">
+          <h2>意见反馈</h2>
+        </div>
+        <div class="column-body">
+          <div class="column-content">
+            <p>毕竟该项目目前一个人维护，难免会有一些问题。 若发现新鲜站点/问题，您可第一时间留言推荐给我，将会出现在网址推荐列表。 欢迎大家为前端导航提供建议，您的每一份关心，都将是我最大的动力。
+
+            </p>
+          </div>
+          <div class="column-img-feedback"></div>
+        </div>
       </li>
     </ul>
-     <page-footer></page-footer>
+    <div class="connect-container">
+      <div class="connect-item">
+        <div class="img-item img-qq"></div>
+        <p>联系QQ</p>
+        <p>583602732</p>
+      </div>
+      <div class="connect-item">
+        <div class="img-item img-email"></div>
+        <p>联系邮箱</p>
+        <p>cymdidi@sina.com</p>
+      </div>
+      <div class="connect-item">
+        <div class="img-item img-feedback"></div>
+        <p>意见反馈</p>
+        <p>cymdidi@sina.com</p>
+      </div>
+    </div>
+    <page-footer></page-footer>
   </div>
 </template>
+
 <script>
 import pageFooter from "@/pages/Footer";
 export default {
@@ -66,7 +99,7 @@ export default {
 
   .main-body {
     background-color: #ffffff;
-    padding: 20px 90px;
+    padding: 20px 200px;
 
     .column {
       .column-header {
@@ -88,9 +121,16 @@ export default {
         padding-bottom: 50px;
         border-bottom: 1px solid #ebebeb;
 
-        .column-img {
+        .column-img-mystory {
           width: 250px;
           background-image: url('../../../static/images/mystory.png');
+          background-repeat: no-repeat;
+          background-position: center;
+        }
+
+        .column-img-feedback {
+          width: 250px;
+          background-image: url('../../../static/images/feedback.png');
           background-repeat: no-repeat;
           background-position: center;
         }
@@ -105,6 +145,41 @@ export default {
             color: #606060;
           }
         }
+      }
+    }
+  }
+
+  .connect-container {
+    display: flex;
+    justify-content: space-around;
+    padding: 30px 150px 50px 150px;
+    position: relative;
+    margin: -20px 0 10px 0;
+
+    .connect-item {
+      .img-item {
+        width: 100%;
+        height: 68%;
+        background-image: url('../../../static/images/help-icons.png');
+        background-repeat: no-repeat;
+      }
+
+      .img-qq {
+        background-position: 50% 0;
+      }
+
+      .img-email {
+        background-position: 50% 50%;
+      }
+
+      .img-feedback {
+        background-position: 50% 100%;
+      }
+
+      p {
+        margin-top: 10px;
+        line-height: 20px;
+        text-align: center;
       }
     }
   }

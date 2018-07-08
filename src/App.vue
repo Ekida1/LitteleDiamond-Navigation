@@ -1,15 +1,17 @@
 <template>
   <div id="app">
     <el-menu :default-active="this.$route.path" class="el-menu-demo header-nav" :router="true" mode="horizontal" @select="handleSelect">
+      <router-link to="/index/buildingtools">
       <div class="logo">
         <img class="logo-img" src="static/images/diamond.png" alt="">
         <p class="logo-text">小钻石前端导航</p>
       </div>
+      </router-link>
         <el-menu-item index="/index/buildingtools">前端导航首页</el-menu-item>
-        <el-menu-item index="/techtheme">技术专题</el-menu-item>
+        <!-- <el-menu-item index="/techtheme">技术专题</el-menu-item> -->
         <el-menu-item index="/goodpick">优站精选</el-menu-item>
         <el-menu-item index="/myplug">我的插件</el-menu-item>
-        <el-menu-item index="/rank">排行榜</el-menu-item>
+        <!-- <el-menu-item index="/rank">排行榜</el-menu-item> -->
         <el-menu-item index="/message">我要留言</el-menu-item>
         <el-menu-item index="/aboutus">关于本站</el-menu-item>
 </el-menu>
@@ -57,7 +59,6 @@ export default {
     display: flex;
     align-items: center;
 
-    // justify-content: center;
     .logo-img {
       float: left;
       width: 38px;
