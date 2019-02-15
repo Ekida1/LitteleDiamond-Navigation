@@ -23,7 +23,7 @@ export default {
   methods: {
     getTechCommunityDatas() {
       this.$http({
-        url: "./api/techCommunity.json",
+        url: "./static/mock/techCommunity.json",
         methods: "GET"
       }).then(
         res => {

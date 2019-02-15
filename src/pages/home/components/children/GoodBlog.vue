@@ -23,7 +23,7 @@ export default {
   methods: {
     getGoodBlogDatas() {
       this.$http({
-        url: "./api/goodBlog.json",
+        url: "./static/mock/goodBlog.json",
         methods: "GET"
       }).then(
         res => {

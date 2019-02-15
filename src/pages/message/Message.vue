@@ -4,6 +4,7 @@
       <div class="banner-title">
         分享你的声音
       </div>
+         <vue-datepicker-local v-model="time" />
     </div>
     <page-footer></page-footer>
   </div>
@@ -11,10 +12,17 @@
 
 <script>
 import pageFooter from "@/pages/Footer";
+import VueDatepickerLocal from "vue-datepicker-local";
 export default {
   name: "message",
   components: {
-    pageFooter
+    pageFooter,
+    VueDatepickerLocal
+  },
+  data() {
+    return {
+      time: new Date()
+    };
   }
 };
 </script>

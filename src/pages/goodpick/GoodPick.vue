@@ -51,7 +51,7 @@ export default {
   methods: {
     getGoodPickDatas() {
       this.$http({
-        url: "./api/goodpick.json",
+        url: "./static/mock/goodpick.json",
         methods: "GET"
       }).then(
         res => {
@@ -193,10 +193,10 @@ export default {
       }
 
       .animation-fade-up {
-        animation: fadeInUp 1000ms;
-        -webkit-animation: fadeInUp 1000ms;
-        -moz-animation: fadeInUp 1000ms;
-        -ms-animation: fadeInUp 1000ms;
+        animation: fadeInUp 1200ms;
+        -webkit-animation: fadeInUp 1200ms;
+        -moz-animation: fadeInUp 1200ms;
+        -ms-animation: fadeInUp 1200ms;
       }
     }
   }

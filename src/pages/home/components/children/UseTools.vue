@@ -23,7 +23,7 @@ export default {
   methods: {
     getUseToolsDatas() {
       this.$http({
-        url: "./api/useTools.json",
+        url: "./static/mock/useTools.json",
         methods: "GET"
       }).then(
         res => {

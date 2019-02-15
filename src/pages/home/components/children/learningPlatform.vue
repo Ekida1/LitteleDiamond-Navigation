@@ -23,7 +23,7 @@ export default {
   methods: {
     getlearningPlatFormDatas() {
       this.$http({
-        url: "./api/learningPlatForm.json",
+        url: "./static/mock/learningPlatForm.json",
         methods: "GET"
       }).then(
         res => {

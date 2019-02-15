@@ -23,7 +23,7 @@ export default {
   methods: {
     getBuildingToolsDatas() {
       this.$http({
-        url: "./api/buildingTools.json",
+        url: "./static/mock/buildingTools.json",
         methods: "GET"
       }).then(
         res => {

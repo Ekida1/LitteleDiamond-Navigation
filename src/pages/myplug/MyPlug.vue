@@ -101,7 +101,7 @@ export default {
     getSwiperListsData() {
       return new Promise((resolve, reject) => {
         this.$http({
-          url: "./api/myPlug.json",
+          url: "./static/mock/myPlug.json",
           methods: "GET"
         }).then(
           res => {

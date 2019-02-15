@@ -23,7 +23,7 @@ export default {
   methods: {
     getKnownDesignDatas() {
       this.$http({
-        url: "./api/knownDesign.json",
+        url: "./static/mock/knownDesign.json",
         methods: "GET"
       }).then(
         res => {

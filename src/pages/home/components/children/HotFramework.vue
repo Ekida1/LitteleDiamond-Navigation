@@ -23,7 +23,7 @@ export default {
   methods: {
     getHotFrameDatas() {
       this.$http({
-        url: "./api/hotFramework.json",
+        url: "./static/mock/hotFramework.json",
         methods: "GET"
       }).then(
         res => {
